@@ -1,0 +1,22 @@
+body{
+    padding-top: 70px;
+    padding-left: 40px;
+    padding: 100px;
+    padding-bottom: none;
+    
+}
+.title{
+    font-size: larger;
+    text-shadow: orange 1px 1px;
+}
+.flex-contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 10px;
+}
+.card_hov :hover{
+    scale:1.09;
+    background-color: rgb(234, 229, 229);
+    cursor: pointer;
+}
